@@ -1,0 +1,152 @@
+@font-face {
+    font-family: cheeseBurger;
+    src: url('../fonts/cheese_burger_4/Cheese\ Burger.otf');
+}
+
+body{
+    background-color : #26577C; 
+    padding : 200px;
+}
+
+#wrap{
+    border : solid 20px #B4B4B3; 
+    width : 1024px;
+    margin : 0 auto; /* centers the box */ 
+}
+
+nav ul{
+    padding : 0px;
+    margin : 0px;
+    list-style : none;
+    border : solid 0px black; 
+    display : flex; 
+}
+
+#mainArea{
+    border : solid 0px black; 
+    display : flex;
+    margin-bottom : 20px;
+}
+
+#mainArea section{
+    border : solid 0px red; 
+}
+
+nav ul a{
+    border : solid 1px #26577C;
+}
+
+/* pseudo classes */
+
+nav ul a:link{
+    flex-grow : 1; 
+    text-align : center;
+    padding-top : 15px;
+    padding-bottom : 15px;
+    font-size : 14pt;
+    font-family : cheeseBurger;
+    color : #26577C;
+    text-decoration: none; /* removes the underline */
+    background-color: #FFA500;
+}
+
+nav ul a:visited{
+    color : #02075D;
+}
+
+nav ul a:focus{
+    text-decoration: underline;
+    outline-color : #E55604;
+}
+
+nav ul a:hover{
+    background-color: #E55604;
+    color : #FFF;
+}
+
+nav ul a:active{
+    background-color: #FFF;
+    color : #E55604;
+}
+
+header{
+    padding : 30px;
+}
+
+h1{
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    color : #FFA500;
+}
+
+#mainPicture p,
+#mainText p{
+    color : #FFA500;
+    font-size : 14pt;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding : 20px;
+}
+
+footer{
+    border : solid 0px black;
+    display : flex;
+    /* background-color : #E55604; */
+    padding : 5px; 
+}
+
+footer section{
+    border : solid 0px red;
+    flex-grow : 1;
+
+    width : 50%;
+    min-width : 50%; 
+    max-width : 50%;
+}
+
+#socialMedia{
+    display : flex;
+
+    justify-content: center;
+    align-items : center;
+}
+
+#socialMedia img{
+    width : 50px;
+    height : 50px;
+    margin : 20px;
+}
+
+/* ABOUT page css starts here */
+
+#mainArea table{
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size : 12pt;
+    width : 100%; 
+    color : #B4B4B3;
+}
+
+#mainArea table tr:hover{
+    background-color : #EBE4D1;
+}
+
+#mainArea table td{
+    padding : 15px; 
+}
+
+.cv_name{
+    font-size : 24pt;
+    font-weight : bold;
+    color : #FFA500;
+}
+
+.cv_heading{
+    color : #FFA500;
+}
+
+#mainArea form table{
+    color : white;
+}
+
+#mainArea form table tr:hover{
+    background-color: white;
+    color : black;
+}
