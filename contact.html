@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <style>
+            body{
+                background : #02075D;
+            }
+            nav ul a{
+                border : solid 1px #02075D;
+            }
+        </style>
+        <title>
+            Contact : Personal Site
+        </title>
+    </head>
+    <body>
+        <div id="wrap">
+            <header>
+                <h1>
+                    Contact me!
+                </h1>
+            </header>
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="about.html">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="mainArea">
+                <form action="thankyou.html" method="post">
+                    <table border="1" width="800px">
+                        <tr>
+                            <td colspan="2">
+                                Use this form to contact me!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Your Name:</td>
+                            <td>
+                                <input type="text" name="username" placeholder="Enter Your Username"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Your Password:</td>
+                            <td>
+                                <input type="password" name="password" placeholder="Enter Your Password"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Days of Class:</td>
+                            <td>
+                                <input type="checkbox" name="classday" value="Monday"/> M
+                                <input type="checkbox" name="classday" value="Tuesday"/> T
+                                <input type="checkbox" name="classday" value="Wednesday"/> W
+                                <input type="checkbox" name="classday" value="Thursday"/> Th
+                                <input type="checkbox" name="classday" value="Friday"/> F
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Time of Day:</td>
+                            <td>
+                                <input type="radio" name="timeday" placeholder="AM"/> AM
+                                <input type="radio" name="timeday" placeholder="PM"/> PM
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Topic:</td>
+                            <td>
+                                <select name="topic">
+                                    <option value="null">--- SELECT ONE ---</option>
+                                    <option value="html">HTML</option>
+                                    <option value="css">CSS</option>
+                                    <option value="js">JAVASCRIPT</option>
+                                    <option value="jquery">JQUERY</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Message:</td>
+                            <td>
+                                <textarea placeholder="Enter Message" name="message" cols="50" rows="10"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="reset" value="Clear Form"/>
+                                <input type="submit" value="Send Message"/>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <footer>
+                <section id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12095.477151797797!2d-73.997345!3d40.7208939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25988e388f47b%3A0xf390a0fad4e2b7c7!2sBroome%20Street%20Residential%20College!5e0!3m2!1sen!2sus!4v1697149550530!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </section>
+                <section id="socialMedia">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="images/facebook.svg"/>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="images/instagram.svg"/>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank">
+                        <img src="images/linkedin.svg"/>   
+                    </a>
+                </section>
+            </footer>
+        </div>
+    </body>
+</html>
